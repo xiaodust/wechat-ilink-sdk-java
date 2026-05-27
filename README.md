@@ -641,6 +641,12 @@ public class QuickStartExample {
 
 ---
 
+## 🛠️ 基于本 SDK 开发的工具
+
+- **[iMoney](https://github.com/lith0924/iMoney)** - 一个入口简单，功能强大，智能便捷的记账工具
+
+---
+
 ## ❓ 常见问题
 
 ### 1. 登录失败或登录结果为空
@@ -706,4 +712,7 @@ MIT License
 
 欢迎大家扫码进群交流问题
 
-<img width="280" alt="社群二维码" src="https://github.com/user-attachments/assets/4397db22-d247-4e3e-bf79-335947003e83" />
+<img width="280" alt="社群二维码" src="https://github.com/user-attachments/assets/2e5c646f-00bd-4ef8-a660-e3dc7fe828e2" />
+
+
+---
