@@ -712,6 +712,6 @@ MIT License
 
 欢迎大家扫码进群交流问题
 
-<img width="280" alt="社群二维码" src="https://github.com/user-attachments/assets/2e5c646f-00bd-4ef8-a660-e3dc7fe828e2" />
+<img width="280" alt="762b713d7d31eead056074c247cfbf1f" src="https://github.com/user-attachments/assets/095adc98-2b49-4f73-9909-fabead073ef5" />
 
 ---
