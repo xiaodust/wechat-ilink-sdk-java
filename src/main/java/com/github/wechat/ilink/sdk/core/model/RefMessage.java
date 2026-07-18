@@ -3,12 +3,14 @@ package com.github.wechat.ilink.sdk.core.model;
 public class RefMessage {
     private MessageItem message_item;
     private String title;
+    private String text;
 
     public RefMessage() {}
 
-    public RefMessage(MessageItem messageItem, String title) {
+    public RefMessage(MessageItem messageItem, String title, String text) {
         this.message_item = messageItem;
         this.title = title;
+        this.text = text;
     }
 
     public MessageItem getMessage_item() {
@@ -28,12 +30,16 @@ public class RefMessage {
     }
 
     public String getText() {
-        if (message_item == null) {
-            return title;
+        if (text != null && !text.isEmpty()) {
+            return text;
         }
-        if (message_item.getText_item() != null && message_item.getText_item().getText() != null) {
+        if (message_item != null && message_item.getText_item() != null && message_item.getText_item().getText() != null) {
             return message_item.getText_item().getText();
         }
         return title;
+    }
+
+    public void setText(String v) {
+        text = v;
     }
 }
